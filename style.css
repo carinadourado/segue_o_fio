@@ -257,10 +257,11 @@ h3{
     grid-row: 1/2;
     
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
 
     margin-bottom: 2rem;
+    margin-left: 2rem;
 
 }
  
