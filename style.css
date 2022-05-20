@@ -40,17 +40,25 @@ h3{
 }
 
 .text-box{
-    background: #FDF1F3;
-    width: 18rem;
-    height: auto;
-    padding: 1.5rem;
-    border: 0.2rem solid #787DF2;
-    border-radius: 1.5rem;
+    width: 314px;
+    height: 345px;
+
+    background-image: url("imagens/postit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+
+
+    opacity: 0;
+    transition: all 1s;
 }
 
 .text-box > p{
@@ -120,9 +128,9 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
- 
+
+
 /* PAGE 3*/
  
 .page-3{
@@ -140,9 +148,6 @@ h3{
     grid-column: 3/4;
     grid-row: 1/2;
     text-align: center;
-
-    background-color: #787DF2;
-
 }
  
 .graphic-3{
@@ -162,7 +167,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
 
 }
  
@@ -218,7 +223,7 @@ h3{
     grid-row: 1/4;
 
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 
     margin-right: 2rem;
@@ -234,14 +239,13 @@ h3{
     grid-column: 3/4;
     grid-row: 2/4;
     margin-bottom: 2rem;
-
 }
  
 /* PAGE 6 */
  
 .page-6{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr;
     grid-template-rows: 0.3fr 2fr;
     gap: 0px 0px;
     margin-top: 2rem;
@@ -251,6 +255,12 @@ h3{
 .subtitle-6{
     grid-column: 1/2;
     grid-row: 1/2;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    margin-bottom: 2rem;
 
 }
  
@@ -277,53 +287,22 @@ h3{
 .page-7{
  
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5r;
-    gap: 0px 0px;
-}
- 
- 
-/* .subtitle-7{
-    grid-column: span 2;
-    grid-row: 1/2;
- 
-    background: #FDF1F3;
-    width: 24rem;
-    height: 7rem;
-    border: 0.2rem solid #787DF2;
-    border-radius: 1.5rem;
-    padding:1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     
-    margin-left: auto;
-    margin-right: auto;
-} */
- 
-.graphic-7{
-    grid-column: 1/2;
-    grid-row: 2/3;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-left: 8rem;
-    margin-top: 2rem;
+    width: 100%;
+    height: 40rem;
 
 }
 
  
 .box-7{
-    grid-column: 2/3;
-    grid-row: 2/3;
 
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-    padding: 5rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 4rem;
 }
 
-.box-7>.text-box{
-    
-    width: 80%;
+em{
+    text-decoration: line-through;
 }
