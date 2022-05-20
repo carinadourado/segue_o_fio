@@ -16,7 +16,6 @@ body{
 
     margin-left: auto;
     margin-right: auto;
-
 }
  
 h1{
@@ -71,6 +70,7 @@ h3{
 .page-1{
     display: flexbox;
     flex-direction: column;
+
     justify-content: left;
     align-items: center;
     text-align: center;
@@ -87,8 +87,9 @@ h3{
 .subtitle-1{
     color: #CC1F3E;
     padding: 1rem;
-    
 }
+
+
  
 .page-1 > h3{
     padding: 2rem;
@@ -102,6 +103,7 @@ h3{
     grid-template-columns: repeat(3 1fr);
     grid-template-rows: 0.5fr 1fr;
     gap: 0px 0px;
+
     margin-top: 6rem;
 }
 
@@ -117,9 +119,9 @@ h3{
 .graphic-2{
     grid-column: 2/3;
     grid-row: 2/3;
+
     margin-left: auto;
     margin-right: auto;
-
 }
  
 .box-2{
@@ -142,12 +144,12 @@ h3{
 
     margin-top: 2rem;
     margin-right: 4rem;
-
 }
  
 .subtitle-3{
     grid-column: 3/4;
     grid-row: 1/2;
+
     text-align: center;
 }
  
@@ -168,8 +170,8 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
 
+    margin-top: 10rem;
 }
  
 /* PAGE 4*/
@@ -179,6 +181,7 @@ h3{
     grid-template-columns: 1.3fr 1.3r 1.5fr;
     grid-template-rows: 0.5fr 1fr;
     gap: 0px 0px;
+
     margin-top: 4rem;
 }
  
@@ -189,21 +192,22 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
  
 
 .subtitle-4{
     grid-column: 3/4;
     grid-row: 1/2;
+
     text-align: center;
+
     margin-right: 4rem;
-   
 }
  
 .video{
     grid-column: 3/4;
     grid-row: 2/3;
+
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -215,6 +219,7 @@ h3{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.3fr 1fr 1fr;
     gap: 0px 0px;
+
     margin-top: 7rem;
     margin-right: 4rem;
 }
@@ -264,7 +269,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     margin-left: 2rem;
     margin-top: 4rem;
     margin-bottom: 2rem; 
@@ -277,25 +282,23 @@ h3{
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
  
 .box-6{
     grid-column: 3/4;
     grid-row: span 3;
+
     display: flex;
     justify-content: center;
-
     margin-top: 20%;
 }
  
 /* PAGE 7 */
  
 .page-7{
- 
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     
     width: 100%;
@@ -304,9 +307,9 @@ h3{
 
  
 .box-7{
-
     grid-column: 1/2;
     grid-row: 1/2;
+
     margin-left: 4rem;
 }
 
@@ -320,3 +323,13 @@ a{
     font-size: 0.8rem;
     font-weight: 600;
   }
+
+  .signature{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -10rem;
+}
